@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Text -->
+    <dimen name="text_size_primary">18sp</dimen>
+    <dimen name="text_size_secondary">16sp</dimen>
+
+    <!-- View -->
+    <dimen name="recycler_view_padding">8dp</dimen>
+    <dimen name="material_baseline_grid_1x">8dp</dimen>
+    <dimen name="material_baseline_grid_2x">16dp</dimen>
+    <dimen name="material_baseline_grid_4x">32dp</dimen>
+
+
+</resources>
