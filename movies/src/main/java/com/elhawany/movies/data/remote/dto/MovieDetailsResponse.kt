@@ -2,7 +2,6 @@ package com.elhawany.movies.data.remote.dto
 
 data class MovieDetailsResponse(
     val adult: Boolean,
-    val backdrop_path: String,
     val belongs_to_collection: Any,
     val budget: Int,
     val genres: List<GenreDto>,
@@ -17,7 +16,7 @@ data class MovieDetailsResponse(
     val production_companies: List<ProductionCompanyDto>,
     val production_countries: List<ProductionCountryDto>,
     val release_date: String,
-    val revenue: Int,
+    val revenue: Long,
     val runtime: Int,
     val spoken_languages: List<SpokenLanguageDto>,
     val status: String,
@@ -25,5 +24,6 @@ data class MovieDetailsResponse(
     val title: String,
     val video: Boolean,
     val vote_average: Double,
-    val vote_count: Int
+    val vote_count: Int,
+    val backdrop_path: String?,
 )
