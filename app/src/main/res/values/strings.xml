@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">MoviesApp</string>
+
+    <string name="overview">Overview</string>
+
+    <!--  test data  -->
+    <string name="test_movie_name">The Super Mario Bros. Movie</string>
+    <string name="test_rating">7.6</string>
+    <string name="test_release_year">2023</string>
+    <string name="test_overview">While working underground to fix a water main,
+        Brooklyn plumbers—and brothers—Mario and Luigi are transported down
+        a mysterious pipe and wander into a magical new world. But when the brothers are separated,
+        Mario embarks on an epic quest to find Luigi.</string>
+
+    <!-- content description   -->
+    <string name="backdrop_image">Backdrop Image</string>
+    <string name="rectangle_white_gradient">Rectangle white gradient</string>
+    <string name="poster">Poster</string>
+    <string name="star">Star</string>
+
 </resources>
